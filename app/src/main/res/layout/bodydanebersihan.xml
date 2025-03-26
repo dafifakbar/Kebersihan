@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageView5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Body Dan Kebersihan"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/Gambar5" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/Gambar6" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="12dp"
+        android:text="Body motor merupakan bagian luar dari sepeda motor yang berfungsi sebagai pelindung komponen mesin serta memberikan tampilan estetika yang menarik. Body motor umumnya terdiri dari bahan plastik, fiber, atau logam dengan berbagai warna dan desain yang memberikan identitas khas pada kendaraan. Kebersihan body motor bukan hanya berpengaruh pada tampilan visual, tetapi juga berperan dalam menjaga daya tahan dan kualitas material motor."
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="300dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="8dp"
+        android:text="Cuci motor secara rutin untuk menghilangkan debu dan kotoran yang menempel. Gunakan sampo motor yang aman agar tidak merusak cat dan plastik body. Setiap 2-3 bulan: Lakukan pemolesan body motor untuk menjaga kilap dan melindungi dari goresan kecil. Gunakan cairan pelindung body agar cat tetap awet dan tidak mudah pudar. Setiap 6 bulan: Periksa kondisi baut dan komponen plastik pada body untuk memastikan tidak ada yang kendur atau rusak."
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="Tips Tambahan: 1.Gunakan lap halus atau microfiber untuk menghindari goresan. 2.Hindari penggunaan deterjen rumah tangga yang bisa merusak warna cat. 3.Parkir di tempat teduh untuk mengurangi paparan sinar matahari langsung yang bisa membuat warna pudar. "
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_2" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/img_1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
